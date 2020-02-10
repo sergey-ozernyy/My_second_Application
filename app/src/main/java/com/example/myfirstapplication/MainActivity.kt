@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        button.setOnClickListener { progressUp() }
+        button.setOnClickListener { progressBar.progress += 10 }
     }
 
     public fun progressUp(){
@@ -24,3 +24,4 @@ class MainActivity : AppCompatActivity() {
     }
 
 }
+
