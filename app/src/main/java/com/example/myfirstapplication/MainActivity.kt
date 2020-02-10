@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener { progressUp() }
     }
 
-    private fun progressUp(){
+    public fun progressUp(){
         var x = 1
         while(x < 100){
             x =+ 10
