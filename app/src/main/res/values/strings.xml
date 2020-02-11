@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">My first Application</string>
     <string name="taskName1">Task1</string>
+    <string name="taskName2">Task2</string>
+    <string name="taskName3">Task3</string>
     <string name="start">Start</string>
 </resources>

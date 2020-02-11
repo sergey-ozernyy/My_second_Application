@@ -10,6 +10,7 @@
     android:layout_margin="20dp"
     tools:context=".MainActivity">
     <TextView
+        android:id="@+id/Label1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/taskName1"
@@ -19,12 +20,14 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.367" />
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         >
         <Button
-        android:id="@+id/button"
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/start"
@@ -33,7 +36,7 @@
         />
 
         <ProgressBar
-            android:id="@+id/progressBar"
+            android:id="@+id/progressBar1"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -49,7 +52,89 @@
 
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/Label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/taskName2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.367" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            tools:layout_editor_absoluteX="184dp"
+            tools:layout_editor_absoluteY="421dp"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:max="100"
+            android:progress="0"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="367dp"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Label3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/taskName3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.367" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            tools:layout_editor_absoluteX="184dp"
+            tools:layout_editor_absoluteY="421dp"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:max="100"
+            android:progress="0"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="367dp"
+            />
+
+
+    </LinearLayout>
 
 
 
